@@ -1,8 +1,8 @@
 <p align="center">
-    <img alt="Exzo Network" src="https://raw.githubusercontent.com/ExzoNetwork/Exzo-Network-Logo/b8db8bdc1e1b80ac9045c3e9d04a40e577151ab5/Exzo%20Logo%20New.svg" width="350" />
+    <img alt="Exzo" src="https://raw.githubusercontent.com/ExzoNetwork/Exzo-Network-Logo/b8db8bdc1e1b80ac9045c3e9d04a40e577151ab5/Exzo%20Logo%20New.svg" width="250" />
 </p>
 
-# Exzo Network Explorer
+# Exzo Explorer
 
 ## Development
 
@@ -43,13 +43,13 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 All claims, content, designs, algorithms, estimates, roadmaps,
 specifications, and performance measurements described in this project
-are done with the Solana Foundation's ("Exzo Network") best efforts. It is up to
+are done with the Solana Foundation's ("SF") best efforts. It is up to
 the reader to check and validate their accuracy and truthfulness.
 Furthermore nothing in this project constitutes a solicitation for
 investment.
 
-Any content produced by Exzo Network or developer resources that Exzo Network provides, are
-for educational and inspiration purposes only. Exzo Network does not encourage,
+Any content produced by SF or developer resources that SF provides, are
+for educational and inspiration purposes only. SF does not encourage,
 induce or sanction the deployment, integration or use of any such
 applications (including the code comprising the Solana blockchain
 protocol) in violation of applicable laws or regulations and hereby
@@ -79,5 +79,3 @@ deploy, integrate, or use the Solana blockchain protocol code directly
 (e.g., as a node operator), and individuals that transact on the Solana
 blockchain through light clients, third party interfaces, and/or wallet
 software.
-
-This block explorer was originally forked from the Solana block explorer and all credits for development should be applied to them. 
