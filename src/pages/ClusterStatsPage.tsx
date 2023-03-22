@@ -57,7 +57,7 @@ function StakingComponent() {
   const fetchSupply = useFetchSupply();
   const fetchAccount = useFetchAccountInfo();
   const stakeInfo = useAccountInfo(STAKE_HISTORY_ACCOUNT);
-  const coinInfo = useCoinGecko("exzo");
+  const coinInfo = useCoinGecko("velas");
   const { fetchVoteAccounts, voteAccounts } = useVoteAccounts();
 
   function fetchData() {
@@ -478,7 +478,7 @@ function useCoinGecko(coinId: string): CoinGeckoResult | undefined {
   React.useEffect(() => {
     const getCoinInfo = () => {
       CoinGeckoClient.coins
-        .fetch("exzo")
+        .fetch("velas")
         .then((info: CoinInfoResult) => {
           setCoinInfo({
             coinInfo: {

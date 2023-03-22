@@ -8,13 +8,13 @@ import { localStorageIsAvailable } from "utils";
 export function clusterApiUrl(cluster: string): string {
   switch (cluster) {
     case "mainnet-beta":
-      return "http://rpc-main-1.exzo.network";
+      return "https://rpc-main-1.exzo.network/rpc";
     case "testnet":
-      return "http://rpc-test-1.exzo.network";
+      return "https://rpc-test-1.exzo.network/rpc";
     case "devnet":
-      return "http://rpc-dev-1.exzo.network";
+      return "https://rpc-dev-1.exzo.network/rpc";
     default:
-      return "http://rpc-main-1.exzo.network";
+      return "https://rpc-main-1.exzo.network/rpc";
   }
 }
 
